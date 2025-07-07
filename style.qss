@@ -1,0 +1,15 @@
+QTableWidget, QTableView {
+    background: #e7c9a9;
+    alternate-background-color: #f5e6d3;
+    gridline-color: #bfa77a;
+}
+
+QTableWidget::item:selected, QTableView::item:selected {
+    background: #fff3e0;
+    color: #222;
+    border: 2px solid orange;
+}
+QTableWidget::item:focus, QTableView::item:focus {
+    background: #fffbe6;
+    border: 2px solid orange;
+}
